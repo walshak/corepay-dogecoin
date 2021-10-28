@@ -9,9 +9,9 @@ import os
 
 #global vars
 db_uri = 'mysql://corepay:18781875Core@localhost:3306/corepay_dogecoin'
-rpc = authproxy.AuthServiceProxy("http://%s:%s@127.0.0.1:22556"%("corepay","18781875Core"))
+rpc = authproxy.AuthServiceProxy("http://%s:%s@127.0.0.1:22555"%("corepay","18781875Core"))
 
-# base_url = 'http://user:password@server_url:44556'
+# base_url = 'http://user:password@server_url:44555'
 # bdc = DogecoindClient(base_url=base_url)
 # txid = 'e0cee8955f516d5ed333d081a4e2f55b999debfff91a49e8123d20f7ed647ac5'
 # rt = bdc.getrawtransaction(txid)
